@@ -1,17 +1,19 @@
 {
   "manifest_version": 3,
-  "name": "Placeholder Name",
+  "name": "Person Finder -- PI Helper",
   "version": "1.0",
-  "description": "Retrieves probable facts about anyone in the world",
+  "description": "Retrieves probable facts and a photo of anyone in the world. Speed up your investigation!",
+  "author": "Kurtis Waterbury and Sam VanTassel",
   "permissions": ["storage", "activeTab", "scripting"],
   "action": {
-    "default_popup": "popup.html",
-    "default_icon": {
-      "16": "/images/16.jpg",
-      "32": "/images/32.jpg",
-      "48": "/images/48.jpg",
-      "128": "/images/128.jpg"
-    }
+    "default_icon": {              
+      "32": "MG32.png"
+    },
+    "default_title": "Find Person!",
+    "default_popup": "popup.html"
+  },
+  "icons": { 
+    "32": "MG32.png",
+    "48": "MG48.png"
   }
-
 }

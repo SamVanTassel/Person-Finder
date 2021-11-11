@@ -35,7 +35,8 @@ button.addEventListener('click', async (e) => {
 
   const photoData = await jsonPhotoData.json();
   console.log(photoData);
-  const photo = photoData.faces[0].urls[3][256];
+  const randomPhotoIndex = Math.floor(Math.random() * 10)
+  const photo = photoData.faces[randomPhotoIndex].urls[3][256];
   
   const personDescription = document.createElement('p');
   personDescription.innerHTML = `There is a ${genderData.probability * 100}% chance that ${personName} is a ${age} year old ${genderData.gender}. They almost certainly look like this:`;
