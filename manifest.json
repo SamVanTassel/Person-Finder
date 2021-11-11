@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Placeholder Name",
+  "version": "1.0",
+  "description": "Retrieves probable facts about anyone in the world",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/16.jpg",
+      "32": "/images/32.jpg",
+      "48": "/images/48.jpg",
+      "128": "/images/128.jpg"
+    }
+  }
+
+}
